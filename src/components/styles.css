@@ -42,3 +42,27 @@
     transform: scale(0.8);
     box-shadow: 0 0 10px black;
 }
+
+.todos-single {
+    display: flex;
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #54BAB9;
+}
+
+.todos-single-text {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
