@@ -35,15 +35,6 @@ const App: React.FC = () => {
     add = active[source.index];
     active.splice(source.index, 1);
     active.splice(destination.index, 0, add);
-
-    // let add,
-    //   active = todos;
-    // add = active[source.index];
-    // active.splice(source.index, 1);
-
-    // console.log({ add });
-
-    //ToDo: reorder the column
   };
 
   return (
