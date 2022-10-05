@@ -17,7 +17,7 @@ const TodoList: React.FC<Props> = ({ todos, setTodos }) => {
           ref={provided.innerRef}
           {...provided.droppableProps}
         >
-          <span className="todos-heading">Active Tasks</span>
+          <span className="todos-heading">Active - Tasks</span>
           {todos?.map((todo, index) => (
             <SingleTodo
               index={index}
